@@ -15,6 +15,7 @@
 ##### Packages used.
 - [fmt](https://golang.org/pkg/fmt/) to use the Println function.
 - [time](https://golang.org/pkg/time/) to use Sleep.
+
 Using the **GoRoutines** do the Fibonacci seq.
 Insert the number of interactions
 
