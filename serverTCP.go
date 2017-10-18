@@ -24,7 +24,11 @@ func main() {
 	}
 }
 
+var id = 0
+
 func manageWith(c net.Conn) {
+	id++
+	fmt.Println("Connections: ", id)
 	defer c.Close()
 	for {
 		_, err := io.WriteString(c, time.Now().Format("15:04:05\n\r"))
