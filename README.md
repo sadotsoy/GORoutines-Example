@@ -20,3 +20,11 @@ Using the **GoRoutines** do the Fibonacci seq.
 Insert the number of interactions
 
 **[CODE](./fibonacci.go)**
+
+### ServerTCP
+##### Packages used.
+- [fmt](https://golang.org/pkg/fmt/) to use the Println function.
+- [io](https://golang.org/pkg/io/) to write on the session.
+- [log](https://golang.org/pkg/log/) to log status
+- [net](https://golang.org/pkg/net/) to use a Listener
+- [time](https://golang.org/pkg/time/) to use Sleep.
